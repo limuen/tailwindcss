@@ -6,7 +6,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default ({  }) => {
   return defineConfig({
-    base:'./',
+    base:'/tailwindcss/',
     plugins: [
       reactRefresh(),
       tsconfigPaths(),
