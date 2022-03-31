@@ -6,6 +6,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default ({ mode }) => {
   return defineConfig({
+    base:'./',
     plugins: [
       reactRefresh(),
       tsconfigPaths(),
