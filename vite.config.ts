@@ -4,7 +4,7 @@ import legacy from '@vitejs/plugin-legacy';
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
-export default ({ mode }) => {
+export default ({  }) => {
   return defineConfig({
     base:'./',
     plugins: [
